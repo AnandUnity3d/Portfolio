@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Styles */
+.hero {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 50px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 24px;
+}
+
+/* About Styles */
+.about {
+  background-color: #fff;
+  padding: 50px;
+}
+
+.about h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* Projects Styles */
+.projects {
+  background-color: #fff;
+  padding: 50px;
+}
+
+.projects h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Skills Styles */
+.skills {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+.skills h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Contact Styles */
+.contact {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+.contact h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.contact ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact li {
+  margin-bottom: 10px;
+}
+
+.contact li a {
+  color: #333;
+  /* text-decoration: none; */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
