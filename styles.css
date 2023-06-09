@@ -7,7 +7,7 @@ body {
 
 /* Header Styles */
 header {
-  background-color: #333;
+  background-color: #f2a413;
   color: #fff;
   padding: 10px;
 }
@@ -46,7 +46,7 @@ nav ul li a {
 
 /* About Styles */
 .about {
-  background-color: #fff;
+  background-color: #60cbe6;
   padding: 50px;
 }
 
@@ -57,7 +57,7 @@ nav ul li a {
 
 /* Projects Styles */
 .projects {
-  background-color: #fff;
+  background-color: #60cbe6;
   padding: 50px;
 }
 
@@ -87,7 +87,7 @@ nav ul li a {
 }
 
 .skills ul {
-  list-style-type: none;
+  list-style-type: square;
   margin: 0;
   padding: 0;
   display: flex;
@@ -101,7 +101,7 @@ nav ul li a {
 
 /* Contact Styles */
 .contact {
-  background-color: #f2f2f2;
+  background-color: #fff;
   padding: 50px;
 }
 
@@ -125,6 +125,86 @@ nav ul li a {
   /* text-decoration: none; */
 }
 
+/* work history Styles */
+.workhistory {
+  background-color: #fff;
+  padding: 50px;
+}
+
+.workhistory h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.workhistory ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.workhistory li {
+  margin-bottom: 10px;
+}
+
+.workhistory li a {
+  color: #333;
+  /* text-decoration: none; */
+}
+
+/* qualification  Styles */
+.qualification {
+  background-color:#60cbe6;
+  ;
+  padding: 50px;
+}
+
+.qualification h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.qualification ul {
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+}
+
+.qualification li {
+  margin-bottom: 10px;
+}
+
+.qualification li a {
+  color: #333;
+  /* text-decoration: none; */
+}
+
+
+/* Gallery  Styles */
+.gallery {
+  background-color:#60cbe6;
+  ;
+  padding: 50px;
+}
+
+.gallery h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.gallery ul {
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery li {
+  margin-bottom: 10px;
+}
+
+.gallery li a {
+  color: #333;
+  /* text-decoration: none; */
+}
 /* Footer Styles */
 footer {
   background-color: #333;
@@ -135,4 +215,11 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+.video-container {
+  max-width: 400px;
+}
+.proj_gall{
+  display: flex;
 }
